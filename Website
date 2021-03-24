@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body> 
+		<h3>Hello!</h3>
+    <p> <font face = "Open Sans" size = "4">My name is <b>Raiyan Hossain</b>, I'm an <b>Information Technology</b> Major with a minor in <b>Computer Science</b>. My specialties include <u>software development</u> and <u>coding</u>. </font><br /> </p>
+
+		<h3></h3>
+		<font face = "Open Sans" size = "3">Contact me: <a href ="rh376@njit.edu"><b>rh376@njit.edu</b></a></font><br />
+    <font face = "Open Sans" size = "2"><a href ="https://www.linkedin.com/in/raiyan-hossain-09a2ab175/">LINKEDIN</a></font><br />
+    <font face = "Open Sans" size = "2"><a href ="rh376@njit.edu">RESUME</a></font><br />
+    <font face = "Open Sans" size = "2"><a href ="https://github.com/raiyanh717">GITHUB</a></font><br />
+		<p>
+		<h4>Background</h4>
+    <font face = "Open Sans" size = "4">I'm a third year undergraduate student at NJIT. When I am not studying, coding or applying for internships, I am either cooking, watching/playing sports or contributing to my fraternity. I am the <b>WebMaster</b> for the Psi Upsilon Alpha Omicron Chapter, and I play a prominent role in the online presence of the organization.</font><br />
+    
+    <font face = "Open Sans" size = "4"><div class="a">I also love to travel. In 2018 I visited Thailand and Bangladesh with my family. The food, culture, and sights were breathtaking as I was met with constant hospitality and kindness.</div></font><br />
+			</tr>
+		</table>
+		<h2></h2>
+   <html>
+   <head>
+   <style>
+   * {
+     box-sizing: border-box;
+   }
+   
+   .column {
+     float: left;
+     width: 50%
+     padding: 15px;
+   }
+   
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+   </style>
+   </head>
+   </body>
+   
+   <h3> Thailand and Bangladesh </h3>
+   
+   <div class = "row">
+     <div class = "column">
+       <img src = "https://www.planetware.com/wpimages/2019/10/thailand-top-attractions-khao-sok-national-park.jpg" alt = "Island's of Thailand" width = "500" height = "300">
+     </div>
+     <div class = "column">
+       <img src = "https://assetsds.cdnedge.bluemix.net/sites/default/files/styles/very_big_1/public/feature/images/dhaka-1_0.jpg?itok=YaE3hVhk.jpg" alt = "Bangladesh Tourist Spots" width = "500" height = "300">
+     </div>
+   </div>
+   
+   </body>
+   </html>
+      
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  </style>
+  </head>
+  <body>
+
+
+  <h6>Toggle Dark/Light mode</h6>
+  <button onclick="myFunction()">Toggle dark mode</button>
+
+  <script>
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  </script>
+
+</body>
+</html>
+
